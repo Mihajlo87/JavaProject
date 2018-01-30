@@ -1,0 +1,12 @@
+Napraviti Java EE aplikaciju koja pomaze u radu video kluba. Potrebno je napraviti kontrolere koji:
+- Dodaje video kasetu u klub.
+- Iznajmljuje video kasetu(u slucaju da ih ima dovoljno,u suprotnom ispisuje odgovarajucu poruku)
+- Brise video kasetu.
+- Pretrazuje video kasete po nazivu filma.
+- Racuna koliko korisnik treba platiti kasetu u slucaju da je svaki dan od dana iznajmljivanja 100 dinara, a nakon 3 dana 200 dinara.
+Kada korisnik dodaje kasetu potrebno je uneti naziv i kolicinu.
+Pri iznajmljivanju kasete korisnik unosi svoje ime, broj licne karte i ID kasete koju zeli da iznajmi.
+Pri brisanju kasete korisnik salje njen ID koji se generise prilikom dodavanja kasete.
+Pri pretrazivanju kasete korisnik salje kljuc po kome ce se vratiti sve kasete koje pocinju tim kljucem (npr. kljuc = Gospodar, rezultat = Gospodar Prstenova 1, Gospodar Prstenova 2, Gospodar Prstenova 3). Uz naziv filma vratiti i njegov ID, kao i kolicinu koja je na raspolaganju u video klubu.
+Pri racunanju koliko korisnik treba da plati, salje se njegov broj licne karte i ID-evi filmova koje je korisnik vratio.
+
